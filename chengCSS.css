@@ -4,14 +4,14 @@ body{
 }
 div.bg{
 	background-color: #002244;
-	width: 1000px;
-	height: 1150px;
+	width: 1150px;
+	height: 1400px;
 	padding-top: 1.9%;
 }
 div.border{
 	border: 6px solid #B0B7BC;
-    width: 900px;
-	height: 1080px;
+    width: 1080px;
+	height: 1310px;
 	margin-top: 15px;
 	display: flex;
 }
@@ -96,31 +96,53 @@ p.skill{
 	0% {width: 0%}
 	100% {width: 70%}
 }
+@keyframes skill60 {
+	0% {width: 0%}
+	100% {width: 60%}
+}
 div.a1{
-	animation-name: skill80;
-	animation-duration: 3s;
-	width: 80%;
-	background-color:#C60C30;
-}
-div.a2{
-	animation-name: skill70;
-	animation-duration: 3s;
-	width: 70%;
-	background-color:#C60C30;
-}
-div.a3{
 	animation-name: skill75;
 	animation-duration: 3s;
 	width: 75%;
 	background-color:#C60C30;
 }
-div.a4{
+div.a2{
+	animation-name: skill75;
+	animation-duration: 3s;
+	width: 75%;
+	background-color:#C60C30;
+}
+div.a3{
 	animation-name: skill70;
 	animation-duration: 3s;
 	width: 70%;
 	background-color:#C60C30;
 }
+div.a4{
+	animation-name: skill80;
+	animation-duration: 3s;
+	width: 80%;
+	background-color:#C60C30;
+}
 div.a5{
+	animation-name: skill70;
+	animation-duration: 3s;
+	width: 70%;
+	background-color:#C60C30;
+}
+div.a6{
+	animation-name: skill75;
+	animation-duration: 3s;
+	width: 75%;
+	background-color:#C60C30;
+}
+div.a7{
+	animation-name: skill70;
+	animation-duration: 3s;
+	width: 70%;
+	background-color:#C60C30;
+}
+div.a8{
 	animation-name: skill75;
 	animation-duration: 3s;
 	width: 75%;
@@ -134,7 +156,7 @@ div.a5{
 /*-----------timeline-------------*/
 .timeline-small {
            width: 400px;
-            height: 470px;
+            height: 680px;
             overflow: hidden;
             margin: 30px auto 0;
             box-shadow: 0 0 40px #a0a0a0;
@@ -171,14 +193,15 @@ div.a5{
             z-index: 1;
             margin-right: 1rem;
             margin-top: 7%;
+			margin-right: 5px;
         }
         .timeline-small-body .bullet.pink {
             background-color: hotpink;
             border: 3px solid #F93B69;
         }
         .timeline-small-body .bullet.green {
-            background-color: lightseagreen;
-            border: 3px solid #B0E8E2;
+            background-color: #45FF45;
+            border: 3px solid #B5FFB5;
         }
         .timeline-small-body .bullet.blue {
             background-color: aquamarine;
@@ -189,10 +212,12 @@ div.a5{
             border: 3px solid #EB8B6E;
         }
         .timeline-small-body .date {
-            width: 23%;
+            width: 35%;
             font-size: 0.8em;
             padding-top: 0.40rem;
             padding-right: 2rem;
+			
+			
         }
         .timeline-small-body .desc {
             width: 50%;
